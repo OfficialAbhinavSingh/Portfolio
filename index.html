@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Abhinav Singh</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+
+      <a href="mailto:laterabhi1@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Abhinav Singh 👋</h2>
+        <p class="intro">A passionate <span class="highlight">web developer</span> and <span class="highlight">design
+            enthusiast</span>,
+          currently studying at <span class="highlight">Scaler School of Technology</span> and pursuing
+          <span class="highlight">Computer Science from BITS Pilani</span>.
+          I love creating engaging <span class="highlight">UI/UX projects</span>, exploring new web technologies,
+          and continuously learning to turn creative ideas into meaningful digital experiences.
+        </p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/abhinavpf.jpg" alt="Abhinav Singh headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I am building a foundation in software development with entry-level skills in front-end and back-end
+        technologies. My programming knowledge includes foundational concepts of Java, HTML, CSS and JavaScript.
+        I also have a basic understanding of UI/UX principles for user-friendly digital experiences.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/java-4-logo-png-transparent.png" alt="Java logo">
+          <span>Java</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/uiux3.webp" alt="UI/UX logo">
+          <span>UI/UX</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+      <div class="group">
+        <div class="person-details">
+          <img src="images/Certificate ui.jpg">
+          <p>Abhinav Singh</p>
+          <p>UI/UX Designer</p>
+        </div>
+
+        <div class="text">
+          The entire design process with Abhinav was seamless and professional from start to finish. What truly
+          impressed us was his ability to listen to our feedback and translate it into a design that showed a deep
+          understanding of our users' needs. His creative vision and UX expertise were invaluable; he delivered a
+          solution that was not only visually stunning but also incredibly intuitive, simplifying our most complex
+          features. We wholeheartedly recommend his services and look forward to working with him again.
+          <br>
+          <b>~ Priya Menon</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Let’s connect and bring ideas to life! Whether you have a project in mind, want to collaborate, or just wish
+          to share your thoughts — I’d love to hear from you. I’m always open to discussing creative concepts, design
+          challenges, or innovative tech solutions. Don’t hesitate to reach out — together, we can build something
+          meaningful and impactful!
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
